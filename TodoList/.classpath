@@ -13,5 +13,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/Other Driver Default"/>
+	<classpathentry kind="lib" path="/home/rogerio/postgresql-9.4-1201.jdbc4.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
