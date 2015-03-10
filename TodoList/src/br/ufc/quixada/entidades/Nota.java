@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Nota {
 	private int id;
-	private Date data;
+	private boolean status;
 	private String texto;
 	
 	public int getId() {
@@ -13,11 +13,11 @@ public class Nota {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public Date getData() {
-		return data;
+	public boolean getStatus() {
+		return status;
 	}
-	public void setData(Date data) {
-		this.data = data;
+	public void setStatus(boolean status) {
+		this.status = status;
 	}
 	public String getTexto() {
 		return texto;

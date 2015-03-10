@@ -19,9 +19,10 @@ public class DAONota {
 
 	public boolean criarNota(Nota nota) throws SQLException {
 		PreparedStatement p = con
-				.prepareStatement("insert into nota (data, texto) values (?, ?, ?)");
-		p.setString(1, nota.getData()+"");
-		p.setString(1, nota.getTexto());
+				.prepareStatement("insert into nota (id, status, texto) values (?, ?, ?)");
+		p.setInt(1, nota.getId());
+		p.setBoolean(2, nota.getStatus());
+		p.setString(3, nota.getTexto());
 		
 		if(p.execute()){
 			p.close();
@@ -52,7 +53,7 @@ public class DAONota {
 		   while(rs.next()){
 		      Nota nota = new Nota();
 		      nota.setId(rs.getInt("id"));
-		      nota.setData(rs.getDate("data"));
+		      nota.setStatus(rs.getBoolean("status"));
 		      nota.setTexto(rs.getString("texto"));
 		      notas.add(nota);
 		   }
