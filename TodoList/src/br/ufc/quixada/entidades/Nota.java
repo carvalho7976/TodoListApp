@@ -6,6 +6,7 @@ public class Nota {
 	private int id;
 	private Date data;
 	private String texto;
+	
 	public int getId() {
 		return id;
 	}
