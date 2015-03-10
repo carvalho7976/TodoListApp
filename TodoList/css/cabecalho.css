@@ -1,0 +1,25 @@
+#cabecalhoDaPagina {
+	text-align: right;
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #8B8989;
+}
+li {
+	display: block;
+	/*float: right;*/
+	font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+		'lucida sans unicode', tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	height: 20px;
+	width: 1000px;	
+}
+a {
+	color: #00BFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

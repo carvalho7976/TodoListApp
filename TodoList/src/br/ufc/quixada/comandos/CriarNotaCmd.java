@@ -13,7 +13,7 @@ public class CriarNotaCmd implements ICmd {
 	@Override
 	public void executar(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 
 	}
 

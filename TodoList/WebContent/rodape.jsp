@@ -5,16 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
+<link href="/css/rodape.css" rel="stylesheet">
 </head>
 <body>
-		<h1>Olá</h1>
-		<input type=button	onClick="location.href='/ToDoListApp/cadastrar.jsp'"
-			value='Criar Nota'>
-			<input type=button	onClick="location.href='/ToDoListApp/listar.jsp'"
-			value='Listar Notas'>
-		<input type=button	onClick="location.href='/ToDoListApp/index.jsp'"
-			value='Cancelar'>
+<table frame="above" id="rodape">
+<tr>
+	<td>&#169; 2015 Gerencia de Configuracao</td>
 	
+</tr>
+</table>
 </body>
 </html>

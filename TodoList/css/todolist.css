@@ -1,0 +1,334 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input[type=button]{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(100,255,100)
+		), to(rgb(100,255,100) ) );
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(122,103,238);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(122,103,238);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(122,103,238);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(122,103,238);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgb(0, 221, 221) 0px 1px 0px 0px, rgba(0, 255, 255, 0.2)
+		0px 1px 0px 0px inset;
+	box-sizing: border-box;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+		'lucida sans unicode', tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	height: 30px;
+	letter-spacing: normal;
+	line-height: normal;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 10px;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 5px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 5px;
+	text-align: center;
+	text-indent: 0px;
+	text-shadow: rgba(1, 1, 1, 0.2) 0px 1px 0px;
+	text-transform: none;
+	white-space: pre;
+	width: 130px;
+	word-spacing: 0px;
+	writing-mode: lr-tb;
+}
+
+input[type=text]{
+	webkit-appearance: none;
+	webkit-border-image: none;
+	webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px, rgb(238, 238, 238) 0px
+		3px 3px 0px inset;
+	webkit-rtl-ordering: logical;
+	webkit-user-select: text;
+	webkit-writing-mode: horizontal-tb;
+	background-color: rgb(255, 255, 255);
+	border-bottom-color: rgb(191, 191, 191);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(191, 191, 191);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(191, 191, 191);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(191, 191, 191);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px, rgb(01000) 0px 3px 3px
+		0px inset;
+	color: rgb(68, 68, 68);
+	cursor: auto;
+	display: inline-block;
+	font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+		'lucida sans unicode', tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	height: 24px;
+	letter-spacing: normal;
+	line-height: normal;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	text-align: start;
+	text-indent: 0px;
+	text-shadow: none;
+	text-transform: none;
+	width: 345px;
+	word-spacing: 0px;
+	writing-mode: lr-tb;
+}
+
+input[type=password]{
+	webkit-appearance: none;
+	webkit-border-image: none;
+	webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px, rgb(238, 238, 238) 0px
+		3px 3px 0px inset;
+	webkit-rtl-ordering: logical;
+	webkit-user-select: text;
+	webkit-writing-mode: horizontal-tb;
+	background-color: rgb(255, 255, 255);
+	border-bottom-color: rgb(191, 191, 191);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(191, 191, 191);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(191, 191, 191);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(191, 191, 191);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px, rgb(238, 238, 238) 0px 3px 3px
+		0px inset;
+	color: rgb(68, 68, 68);
+	cursor: auto;
+	display: inline-block;
+	font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+		'lucida sans unicode', tahoma, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	height: 24px;
+	letter-spacing: normal;
+	line-height: normal;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	text-align: start;
+	text-indent: 0px;
+	text-shadow: none;
+	text-transform: none;
+	width: 345px;
+	word-spacing: 0px;
+	writing-mode: lr-tb;
+}
+
+input[type=submit] {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(100,255,100)
+		), to(rgb(100,255,100) ) );
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(122,103,238);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: rgb(122,103,238);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(122,103,238);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(122,103,238);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgb(0, 221, 221) 0px 1px 0px 0px, rgba(0, 255, 255, 0.2)
+		0px 1px 0px 0px inset;
+	box-sizing: border-box;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	display: block;
+	float: right;
+	font-family: 'Open Sans', 'lucida grande', 'Segoe UI', arial, verdana,
+		'lucida sans unicode', tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	height: 30px;
+	letter-spacing: normal;
+	line-height: normal;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	margin-right: 280px;
+	margin-top: 10px;
+	overflow-x: visible;
+	overflow-y: visible;
+	padding-bottom: 5px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 5px;
+	text-align: center;
+	text-indent: 0px;
+	text-shadow: rgba(1, 1, 1, 0.2) 0px 1px 0px;
+	text-transform: none;
+	white-space: pre;
+	width: 75px;
+	word-spacing: 0px;
+	writing-mode: lr-tb;}
+
+body {
+	background: #fff url(fundocinza.jpg) top center no-repeat;
+	color: #2380a0;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	line-height: 23px;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+
+a {
+	color: #00BFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p,ul,ol,dl {
+	margin: 0 0 20px 20px;
+}
+
+h1 {
+	color: #972323;
+	font-size: 2em;
+	line-height: 1.1em;
+}
+
+label{
+	color:#567; font-weight:bold;
+	font-size: 1.2em;
+	line-height: 1.1em;
+	margin: 50px 50px 150px 50px;
+}
+
+h1 a {
+	color: #972323;
+	font-weight: 400;
+	text-transform: none;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: #2380a0;
+	margin: 0 0 15px;
+}
+
+h3 {
+	font-size: 1.2em;
+	margin: 10px 0 8px 20px;
+}
+
+h1,h2,h3 {
+	font-weight: 400;
+}
+
+fieldset {
+	border-bottom-width: 1px;
+	border-color: white;
+	border-bottom-color: white;
+	border-left-width: 1px;
+	border-left-color: white;
+	margin: 150px 400px 400px 350px;
+	color: #006400
+}
+
+table {
+	border-collapse: separate;
+	background-color: #FFFFFF;
+	border: 0px solid #696969;
+	caption-side: bottom;
+	margin: 150px 150px 150px 150px;
+}
+
+td {
+	border: 1px solid #FFFFFF;
+	margin: 3px;
+	padding: 3px;
+	vertical-align: top;
+	background: #FFFFFF;
+	color: #000000;
+	padding-bottom: 4.390625px;
+	padding-left: 4.390625px;
+	padding-right: 4.390625px;
+	padding-top: 4.390625px;
+	text-align: left;
+	vertical-align: top;
+	width: 400.21875px;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CDC9C9
+}
+
+th {
+	border: 1px solid #FFFFFF;
+	padding: 3px;
+	background: #54FF9F;
+	color: #006400;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #006400;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #006400;
+}
