@@ -1,43 +1,35 @@
 package br.ufc.quixada.comandos;
 
 import java.io.IOException;
-import java.sql.SQLException;
+import java.util.ArrayList;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import br.ufc.quixada.DAOs.DAONota;
 import br.ufc.quixada.entidades.Nota;
 import br.ufc.quixada.iterfaces.ICmd;
 
-public class CriarNotaCmd implements ICmd {
+public class ListarNotasCmd implements ICmd {
 
 	@Override
 	public void executar(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-			
-		String texto = request.getParameter("texto");
 		
-		Nota nota = new Nota();
-		nota.setId(1);
-		nota.setStatus(false);
-		nota.setTexto(texto);
 		DAONota daoNota = new DAONota();
 		
+		HttpSession sessao = request.getSession();
 		
 		try {
-			System.out.println("esse ai passou, esse ai passou");
-			daoNota.criarNota(nota);
-			response.sendRedirect("index.jsp");
+			ArrayList<Nota> notas = new ArrayList<Nota>();
+					sessao.setAttribute("listaNota",notas);
+					response.sendRedirect("listar.jsp");
+					
 		} catch (Exception e) {
-			response.sendRedirect("index.jsp");
-			e.printStackTrace();;
- 		}
-		
-		
-		
-
+			e.printStackTrace();
+		}
 	}
 
 }

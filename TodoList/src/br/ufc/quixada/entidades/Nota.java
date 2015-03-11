@@ -15,6 +15,7 @@ public class Nota {
 	}
 	public boolean status() {
 		return status;
+	}	
 	public boolean getStatus() {
 		return status;
 	}

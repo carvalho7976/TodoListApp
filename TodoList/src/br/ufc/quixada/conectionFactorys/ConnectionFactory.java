@@ -9,7 +9,7 @@ public class ConnectionFactory {
 	public Connection getConnection() {
 		  try {
 	            return DriverManager.getConnection(
-	          "jdbc:postgresql://localhost:5433/ToDoList", "postgres", "leuson");
+	          "jdbc:postgresql://localhost:5433/ToDoList", "postgres", "1234");
 	        } catch (SQLException e) {
 	            throw new RuntimeException(e);
 	        }

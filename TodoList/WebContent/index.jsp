@@ -4,17 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MyToDoList App</title>
+<title>ToDoList App</title>
 
 </head>
 <body>
 		<h1>Olá</h1>
-		<input type=button	onClick="location.href='/ToDoListApp/cadastrar.jsp'"
-			value='Criar Nota'>
-			<input type=button	onClick="location.href='/ToDoListApp/listar.jsp'"
-			value='Listar Notas'>
-		<input type=button	onClick="location.href='/ToDoListApp/index.jsp'"
-			value='Cancelar'>
-	
+		
+		<input type=button	onClick="location.href='/ToDoListApp/cadastrar.jsp'"   value='Criar Nota'>
+			<form action="http://localhost:8080/ToDoListApp/MainServlet" method="post">
+				<input type="hidden" name="acao" value="listarNotas" />
+				<input type="submit"	 value='Listar Notas'>
+			</form>
+		<input type=button	onClick="location.href='/ToDoListApp/index.jsp'"	value='Cancelar'>
+		
 </body>
 </html>

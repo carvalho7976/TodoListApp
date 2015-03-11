@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Criar nota</title>
 <link href="css/todolist.css" rel="stylesheet">
 </head>
 <body>

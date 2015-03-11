@@ -51,7 +51,7 @@ public class DAONota {
 		}
 	}
 
-	public ArrayList<Nota> filtrarNota(Date inicio, Date fim) throws SQLException {
+	public ArrayList<Nota> listarNotas() throws SQLException {
 		List<Nota> notas = new ArrayList<Nota>();
 		   PreparedStatement p = con.prepareStatement("select * from nota");
 		   ResultSet rs = p.executeQuery();
