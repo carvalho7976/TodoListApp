@@ -8,13 +8,18 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import br.ufc.quixada.conectionFactorys.ConnectionFactory;
 import br.ufc.quixada.entidades.Nota;
 
 public class DAONota {
 	private Connection con;
 
-	public DAONota(Connection con) {
-		this.con = con;
+	public DAONota() {
+		this.con = this.getConnection();
+	}
+	private Connection getConnection(){
+		ConnectionFactory factory = new ConnectionFactory();
+		return factory.getConnection();
 	}
 
 	public boolean criarNota(Nota nota) throws SQLException {
