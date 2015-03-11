@@ -30,10 +30,13 @@ public class MainServlet extends HttpServlet {
     }
 
 	
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String acao = request.getParameter("acao");
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		System.out.println("entrando...");
+		if(request == null) System.out.println("estou vindo nulo, ");
+    	String acao = request.getParameter("acao");
 		try{
 			ICmd comando = mapaDeAcoes.get(acao);
+			System.out.println(comando.getClass().getName());
 			comando.executar(request, response);
 			
 		}catch(Exception e){
@@ -47,6 +50,8 @@ public class MainServlet extends HttpServlet {
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		response.sendRedirect("index.jsp");
 		processRequest(request, response);
 	}
 

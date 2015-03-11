@@ -8,16 +8,17 @@
 <link href="css/todolist.css" rel="stylesheet">
 </head>
 <body>
-		<div id=cadastrarNota >
-		<form action="http://localhost:8080/ToDoListApp/MainServlet" method="post">
+	
+		
 		<h3>Criar Nota</h3>
-			<input type="hidden" name="acao" value="criarNotaCmd" /> 
-			<textarea rows="4" cols="50"  name="texto"> </textarea>
-			</br>	
-			<input type="submit" value="Enviar"	name="btmSubmit" />
+		<form action="ServletCentral" method="post">
+			<input type="hidden" name="acao" value="criarNotaCmd" />
+			<input type="text" name="texto"/> 
+			<input type="submit"	 value='Salvar'/>
+		</form>
 			<input type=button	onClick="location.href='/ToDoListApp/index.jsp'"
 			value='Cancelar'>
-		</form>
+		
 		
 	
 </body>

@@ -17,6 +17,10 @@ public class CriarNotaCmd implements ICmd {
 	public void executar(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 			
+		
+		
+		System.out.println("passou");
+		
 		String texto = request.getParameter("texto");
 		
 		Nota nota = new Nota();
@@ -27,7 +31,7 @@ public class CriarNotaCmd implements ICmd {
 		
 		
 		try {
-			System.out.println("esse ai passou, esse ai passou");
+			System.out.println("try");
 			daoNota.criarNota(nota);
 			response.sendRedirect("index.jsp");
 		} catch (Exception e) {

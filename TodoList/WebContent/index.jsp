@@ -11,7 +11,7 @@
 		<h1>Olá</h1>
 		
 		<input type=button	onClick="location.href='/ToDoListApp/cadastrar.jsp'"   value='Criar Nota'>
-			<form action="http://localhost:8080/ToDoListApp/MainServlet" method="post">
+			<form action="ServletCentral" method="post">
 				<input type="hidden" name="acao" value="listarNotas" />
 				<input type="submit"	 value='Listar Notas'>
 			</form>
